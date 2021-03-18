@@ -16,9 +16,6 @@ public class HelloController {
 		return "common/hello";
 	}
 	
-	@GetMapping("/chau") 
-	public String hello2() {
-		return "Dit me The Tan";
-	}
+
 	
 }
